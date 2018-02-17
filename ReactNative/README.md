@@ -8,7 +8,7 @@
 ![Alt Text](https://i.imgflip.com/23tn9u.gif) 
 
 ## Google Drive APK Link 
-    https://drive.google.com/open?id=1emaK5FMiH8Pq50oYpgabYBRN6xJW7yhi
+   https://drive.google.com/open?id=1emaK5FMiH8Pq50oYpgabYBRN6xJW7yhi
     
 This project was created by `react-native-init` command.
     
@@ -42,6 +42,12 @@ This project was created by `react-native-init` command.
   ## Running
    ####  Run app in Android device(enable USB Debugging First) or emulator   
          'react-native run-android'
+         
+   ####  Generate Signed APK 
+         Android requires that all apps be digitally signed with a certificate before they can be installed, so to 
+    distribute your Android application via Google Play store, you'll need to generate a signed release APK.
+            
+   Follow the instructions here https://facebook.github.io/react-native/docs/signed-apk-android.html to create APK.
   
 
  
